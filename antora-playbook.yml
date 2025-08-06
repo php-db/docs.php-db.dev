@@ -1,0 +1,19 @@
+site:
+  title: PhpDb Documentation
+  url: https://docs.php-db.dev
+  start_page: phpdb::index.adoc
+content:
+  sources:
+    - url: https://github.com/php-db/phpdb.git
+      branches: [0.0.x]
+      start_path: docs
+    - url: https://github.com/php-db/phpdb-adapter-mysql.git
+      branches: [0.0.x]
+      start_path: docs
+    - url: https://github.com/php-db/phpdb-adapter-sqlite.git
+      branches: [0.0.x]
+      start_path: docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
